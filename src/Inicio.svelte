@@ -78,7 +78,7 @@
     </div>
   </Link>
 
-  <Link to="/articulos">
+  <Link to="/peliculas">
     <div class="resumen">
       <span class="opcion">🎥 Peliculas</span>
       <span class="descripcion">
