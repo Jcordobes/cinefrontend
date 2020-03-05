@@ -12,7 +12,7 @@
   let pelicula = {};
 
   onMount(async () => {
-    const response = await fetch(URL.articulos);
+    const response = await fetch(URL.peliculas);
     const data = await response.json();
     $jsonData = data;
   });
@@ -34,7 +34,7 @@
   }
 </style>
 
-<h1>ARTÍCULOS</h1>
+<h1>PELICULAS</h1>
 <Buscar bind:busqueda />
 
 <div class="container">

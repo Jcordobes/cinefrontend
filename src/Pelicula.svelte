@@ -52,6 +52,6 @@
     min="0"
     max="9999.99"
     step=".01"
-    bind:value={pelicula.precio} />  €
+    bind:value={pelicula.precio} />  
   <slot />
 </div>
