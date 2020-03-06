@@ -61,7 +61,7 @@
       width: auto;
     }
     .inicio::after,
-    .articulos::after,
+    .peliculas::after,
     .clientes::after {
       display: inline-block;
       padding-left: 10px;
@@ -69,7 +69,7 @@
     .inicio::after {
       content: "Inicio";
     }
-    .articulos::after {
+    .peliculas::after {
       content: "Artículos";
     }
     .clientes::after {
