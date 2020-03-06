@@ -31,10 +31,6 @@
     max-width: 140px;
   }
 
-  input[type="number"] {
-    text-align: right;
-    width: 100px;
-  }
   input:focus {
     background-color: wheat;
   }

@@ -100,8 +100,8 @@
       </Link>
     </li>
     <li class="item active">
-      <Link to="/articulos">
-        <span class="articulos">🎁</span>
+      <Link to="/peliculas">
+        <span class="peliculas">🎁</span>
       </Link>
     </li>
     <li class="item active">
