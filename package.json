@@ -7,7 +7,7 @@
     "frontend",
     "fullstack"
   ],
-  "author": "jamj2000 at google dot com",
+  "author": "jcordobes",
   "license": "GPL",
   "scripts": {
     "build": "rollup -c",
