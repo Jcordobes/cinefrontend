@@ -5,8 +5,8 @@
   import Contenido      from "./Contenido.svelte";
   
   const URL = {
-    peliculas :  "https://multimediabackend.herokuapp.com/api/peliculas",
-    clientes :   "https://multimediabackend.herokuapp.com/api/clientes"
+    peliculas :  "https://multimediabackend.herokuapp.com/api/peliculas/",
+    clientes :   "https://multimediabackend.herokuapp.com/api/clientes/"
   };
 
   setContext("URL", URL);
