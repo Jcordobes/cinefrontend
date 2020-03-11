@@ -43,8 +43,7 @@
 
 <div class="card">
   <input bind:value={pelicula.nombre} class="title" />
-  <input bind:value={pelicula.precio} class="title" />  
-  <input bind:value={pelicula.genero} class="title" />
+  <input bind:value={pelicula.genero} class="title" />  
   <input bind:value={pelicula.calificacion} class="title" />
   <slot />
 </div>

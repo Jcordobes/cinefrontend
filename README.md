@@ -355,7 +355,7 @@ Crearemos dos componentes llamados `Nav.svelte` y `Contenido.svelte`. Debe estar
   <!-- Se eliminan etiquetas html para resaltar lo esencial -->
   <!-- Consulta el código fuente. -->       
   <Link to="/">Inicio</Link>
-  <Link to="/articulos">Artículos</Link>
+  <Link to="/peliculas">Peliculas</Link>
   <Link to="/clientes">Clientes</Link>
 </nav>
 ```

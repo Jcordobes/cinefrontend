@@ -61,7 +61,7 @@
       width: auto;
     }
     .inicio::after,
-    .peliculas::after,
+    .articulos::after,
     .clientes::after {
       display: inline-block;
       padding-left: 10px;
@@ -69,7 +69,7 @@
     .inicio::after {
       content: "Inicio";
     }
-    .peliculas::after {
+    .articulos::after {
       content: "Artículos";
     }
     .clientes::after {
@@ -96,12 +96,12 @@
   <ul class="menu">
     <li class="logo">
       <Link to="/">
-        <span class="inicio">🛒</span>
+        <span class="inicio">🎦</span>
       </Link>
     </li>
     <li class="item active">
       <Link to="/peliculas">
-        <span class="peliculas">🎁</span>
+        <span class="peliculas">🎥</span>
       </Link>
     </li>
     <li class="item active">

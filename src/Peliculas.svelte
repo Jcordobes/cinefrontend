@@ -1,27 +1,21 @@
 <script>
   import { onMount, getContext } from "svelte";
   import { jsonData }            from "./store.js";
-
   import Buscar                  from "./Buscar.svelte";
   import Pelicula                from "./Pelicula.svelte";
   import Boton                   from "./Boton.svelte";
-
   const URL = getContext("URL");
-
   let busqueda = "";
   let pelicula = {};
-
   onMount(async () => {
     const response = await fetch(URL.peliculas);
     const data = await response.json();
     $jsonData = data;
   });
-
   $: regex = new RegExp(busqueda, "i");
   $: datos = busqueda 
     ? $jsonData.filter(item => regex.test(item.nombre))
     : $jsonData;
-
 </script>
 
 <style>
