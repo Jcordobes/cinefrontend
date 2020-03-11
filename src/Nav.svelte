@@ -96,7 +96,7 @@
   <ul class="menu">
     <li class="logo">
       <Link to="/">
-        <span class="inicio">🎦</span>
+        <span class="inicio">🍿</span>
       </Link>
     </li>
     <li class="item active">
