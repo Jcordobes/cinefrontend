@@ -42,8 +42,9 @@
 </style>
 
 <div class="card">
-  <input bind:value={pelicula.nombre} class="title" />
-  <input bind:value={pelicula.genero} class="title" />  
-  <input bind:value={pelicula.calificacion} class="title" />
+  <input bind:value={pelicula.nombre} placeholder="Nombre" class="title" />
+  <input bind:value={pelicula.genero} placeholder="Genero" class="title" />  
+  <input bind:value={pelicula.calificacion} placeholder="Calificación" class="title" />
+  <input bind:value={pelicula.director} placeholder="Director" class="title" />
   <slot />
 </div>
